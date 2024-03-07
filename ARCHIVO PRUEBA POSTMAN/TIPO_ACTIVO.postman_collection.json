@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "354d8ea4-ddd4-4901-9d60-9b9ef289d9db",
+		"name": "TIPO_ACTIVO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8084/api/tipoActivo/guardarTipoActivo/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"INVERSIONES\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/tipoActivo/guardarTipoActivo/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"tipoActivo",
+						"guardarTipoActivo",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "0d6a4a9e-a16b-4924-ac96-f499f322633f",
+		"name": "AREA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8084/api/area/guardarArea/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idActivoFijo\":5,\r\n    \"idCiudad\":3,\r\n    \"nombreArea\":\"GARAGE BOGOTA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/area/guardarArea/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"area",
+						"guardarArea",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

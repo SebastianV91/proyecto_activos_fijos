@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "98c8472d-3fa5-47c6-9839-f13114aa4634",
+		"name": "ACTIVOS FIJOS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8084/api/activoFijo/guardarActivoFijo/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Silla giratoria\",\r\n    \"descripcion\":\"Silla de oficina\",\r\n    \"serial\":\"613265\",\r\n    \"num_interno_inventario\":\"333\",\r\n    \"peso\":87,\r\n    \"alto\":73.7,\r\n    \"ancho\":1.25,\r\n    \"largo\":13.5,\r\n    \"valor_compra\":650000,\r\n    \"fecha_compra\":\"2022-08-06\",\r\n    \"id_tipo_activo\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/activoFijo/guardarActivoFijo/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"activoFijo",
+						"guardarActivoFijo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/activoFijo/actualizarActivoFijo/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Silla giratoria\",\r\n    \"descripcion\":\"Silla de oficina\",\r\n    \"serial\":\"613265\",\r\n    \"num_interno_inventario\":\"333\",\r\n    \"peso\":87,\r\n    \"alto\":73.7,\r\n    \"ancho\":1.25,\r\n    \"largo\":13.5,\r\n    \"valor_compra\":650000,\r\n    \"fecha_compra\":\"2022-08-06\",\r\n    \"id_tipo_activo\":2,\r\n    \"idActivoFijo\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/activoFijo/actualizarActivoFijo/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"activoFijo",
+						"actualizarActivoFijo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/activoFijo/consultaTipoActivoFijo/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"MUEBLES\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/activoFijo/consultaTipoActivoFijo/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"activoFijo",
+						"consultaTipoActivoFijo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/activoFijo/consultaSerialActivoFijo/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"serial\":\"613265\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/activoFijo/consultaSerialActivoFijo/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"activoFijo",
+						"consultaSerialActivoFijo",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8084/api/activoFijo/consultaFechaActivoFijo/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fecha_compra\":\"2022-08-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/activoFijo/consultaFechaActivoFijo/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"activoFijo",
+						"consultaFechaActivoFijo",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

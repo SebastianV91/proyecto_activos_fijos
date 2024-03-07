@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "70962594-8e33-4ed3-ac6b-23bb15358e27",
+		"name": "PERSONA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8084/api/persona/guardarPersona/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idActivoFijo\":6,\r\n    \"primer_nombre\":\"CARLOS\",\r\n    \"segundo_nombre\":\"EDUARDO\",\r\n    \"primer_apellido\":\"TAMARA\",\r\n    \"segundo_apellido\":\"VANEGAS\",\r\n    \"edad\":32\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/api/persona/guardarPersona/",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"api",
+						"persona",
+						"guardarPersona",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
